@@ -86,9 +86,6 @@ function App() {
             onChange={(e) => setPrompt(e.target.value)}
             rows={4}
             multiline={true}
-            sx={{
-              width: "500px",
-            }}
           />
           <Button
             variant="contained"
